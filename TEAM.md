@@ -12,8 +12,8 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
+| 1 | Lương Đức Anh| 2A202603931| | |
+| 2 | Bùi Thị Huyền Tâm| 2A202603917| | |
 | 3 | | | | |
 | 4 | | | | |
 
