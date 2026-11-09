@@ -41,12 +41,12 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 > Bản phân công/đóng góp mô phỏng theo báo cáo cá nhân; cần thành viên xác nhận trước khi coi là biên bản thực tế.
 
-- Candidate về điều hướng yêu cầu và file đích; rà soát metric, boundary và mức can thiệp.
+- Scan vấn đề đời sống; pitch candidate theo dõi chi tiêu từ nhiều ứng dụng; rà soát metric, boundary và mức can thiệp.
 
 **Đóng góp cụ thể** (bản nháp):
 
-- Soạn scan CP1, ba Problem Card CP2 và đề xuất pilot chỉ mục không AI trong [báo cáo cá nhân](report/individual/2A202603917_Bùi%20Thị%20Huyền%20Tâm.md).
-- Góp ý báo cáo nhóm giữ candidate ở trạng thái giả thuyết và chọn Not Yet cho AI do thiếu kiểm chứng.
+- Soạn scan CP1 và ba Problem Card CP2 cho các bối cảnh chi tiêu, đi lại nhóm và nhắc việc trong [báo cáo cá nhân](report/individual/2A202603917_Bùi%20Thị%20Huyền%20Tâm.md).
+- Đề xuất đo baseline và bắt đầu bằng No AI/Rule; candidate nhóm cuối cùng cần được xác nhận sau pitch.
 
 **Bằng chứng trong repo:**
 
@@ -54,4 +54,4 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Điều rút ra trong bản mô phỏng:**
 
-- Cần phân biệt dấu hiệu nhìn thấy trong repo với pain người dùng đã được kiểm chứng; thử cách No AI đơn giản trước khi tăng mức tự động hóa.
+- Cần phân biệt ước tính với dữ liệu đã đo; với chi tiêu cá nhân, cân nhắc quyền riêng tư và thử cách No AI/Rule trước khi tăng mức tự động hóa.
