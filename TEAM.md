@@ -4,9 +4,9 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: Monday
+- Candidate problem tạm chọn (cần kiểm chứng): Khi làm bài nhóm theo nhiều checkpoint, thành viên muốn xác định nhanh cần tạo/cập nhật nội dung ở đâu và còn thiếu gì, để hoàn tất deliverable đúng yêu cầu.
+- Quyết định cuối: Not Yet — repo chưa có bằng chứng từ pitch, phỏng vấn/survey hay đo thời gian; xem `report/team/group_report.md`.
 
 ## Thành viên
 
@@ -37,20 +37,21 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### BuiThiHuyenTam-2A202603917
 
-**Phần việc phụ trách:**
+> Bản phân công/đóng góp mô phỏng theo báo cáo cá nhân; cần thành viên xác nhận trước khi coi là biên bản thực tế.
 
--
+- Candidate về điều hướng yêu cầu và file đích; rà soát metric, boundary và mức can thiệp.
 
-**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+**Đóng góp cụ thể** (bản nháp):
 
--
+- Soạn scan CP1, ba Problem Card CP2 và đề xuất pilot chỉ mục không AI trong [báo cáo cá nhân](report/individual/2A202603917_Bùi%20Thị%20Huyền%20Tâm.md).
+- Góp ý báo cáo nhóm giữ candidate ở trạng thái giả thuyết và chọn Not Yet cho AI do thiếu kiểm chứng.
 
-**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+**Bằng chứng trong repo:**
 
--
+- [Báo cáo cá nhân](report/individual/2A202603917_Bùi%20Thị%20Huyền%20Tâm.md), [báo cáo nhóm](report/team/group_report.md). Chưa có interview snapshot, file assets hoặc commit ghi nhận hoạt động trực tiếp.
 
-**Điều mình học được từ phần nhóm:**
+**Điều rút ra trong bản mô phỏng:**
 
--
+- Cần phân biệt dấu hiệu nhìn thấy trong repo với pain người dùng đã được kiểm chứng; thử cách No AI đơn giản trước khi tăng mức tự động hóa.
