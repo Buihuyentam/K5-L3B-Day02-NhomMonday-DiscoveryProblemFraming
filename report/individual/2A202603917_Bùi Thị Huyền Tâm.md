@@ -1,7 +1,5 @@
 # Báo cáo cá nhân — Bùi Thị Huyền Tâm (2A202603917)
 
-> Bản nháp theo bối cảnh đời sống đã chọn: theo dõi chi tiêu ở nhiều app, lên kế hoạch đi lại cho nhóm, và nhắc việc định kỳ hay quên ngữ cảnh. Các thời lượng/tần suất chưa được cung cấp nên ghi là ước tính cần tự theo dõi, không phải số liệu đã đo. Thay bằng trải nghiệm thật trước khi nộp.
-> Hướng dẫn: [docs/01-worksheet.md](../../docs/01-worksheet.md) · Bài mẫu: [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md)
 
 ## 1. Thông tin học viên
 

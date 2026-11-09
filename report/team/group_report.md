@@ -1,67 +1,74 @@
 # Báo cáo nhóm — Day 02 Discovery & Problem Framing
 
-> Bản nháp làm từ tài liệu hiện có trong repo. Repo chưa có ghi chép pitch, phỏng vấn/survey, log thời gian hay research riêng của nhóm; vì vậy số liệu và quy trình dưới đây là giả thuyết để kiểm chứng, không phải kết quả thực địa. Không dùng nội dung này làm bằng chứng phỏng vấn. Cập nhật sau khi nhóm xác nhận.
-> Worksheet: [docs/01-worksheet.md](../../docs/01-worksheet.md) · Hướng dẫn framework: [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md)
+> Tổng hợp desk-based từ hai file cá nhân hiện có. Candidate được đề xuất, chưa có biên bản pitch/đồng thuận nhóm, phỏng vấn, survey hoặc số liệu bấm giờ. Các quy trình/metric tương lai là kế hoạch pilot, không phải kết quả đã đạt. Phân công trong `TEAM.md` là đề xuất.
+> Worksheet: [docs/01-worksheet.md](../../docs/01-worksheet.md) · Bài mẫu: [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md) · Nhân sự/phân công: [TEAM.md](../../TEAM.md)
 
 ## 1. Thông tin nhóm
 
 - Tên nhóm: Monday
-- Thành viên đã biết trong `TEAM.md`: Lương Đức Anh (2A202603931), Bùi Thị Huyền Tâm (2A202603917); danh sách còn thiếu.
-- Candidate problem tạm chọn: Khi làm bài nhóm theo nhiều checkpoint, thành viên muốn xác định nhanh cần tạo/cập nhật nội dung ở đâu và còn thiếu gì, để hoàn tất deliverable đúng yêu cầu.
-- Quyết định cuối: **Not Yet** — cần xác nhận pain và baseline với thành viên thật trước khi chọn giải pháp.
+- Hai hồ sơ đã đối chiếu: Bùi Thị Huyền Tâm (2A202603917), Lương Đức Anh (2A202603931).
+- Candidate đề xuất: Khi tổng kết chi tiêu tháng, người dùng muốn gom khoản từ app/ngân hàng, tiền mặt và điểm trả trước vào một bảng dễ hiểu, để thấy chi tiêu thực mà không bỏ sót hoặc tính trùng.
+- Quyết định hiện tại: **Not Yet** cho sản phẩm/AI; xác minh và pilot thủ công trước.
 
 ---
 
 ## 2. Hội tụ nhóm (CP3)
 
-### 2.1. Pitch
+### 2.1. Candidate pool từ hai báo cáo cá nhân
 
-Chưa có biên bản pitch hoặc Problem Card cá nhân trong repo. Không thể quy candidate cho thành viên hay ghi câu hỏi phản biện như thể đã xảy ra. Dưới đây là các candidate desk-research suy ra từ loại công việc được mô tả trong worksheet; cần từng thành viên xác nhận bằng trải nghiệm thật.
+Các candidate dưới đây được rút từ scan/top 3 của hai file; chưa khẳng định thành viên đã pitch hoặc phản biện trong buổi nhóm.
 
-| # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck giả thuyết | Câu hỏi phản biện cần hỏi |
+| # | Người / nguồn | Candidate (Job Story ngắn) | Actor | Bottleneck giả thuyết | Câu hỏi phản biện cần hỏi |
 |---:|---|---|---|---|---|
-| 1 | Chưa ghi nhận | Khi bắt đầu checkpoint, tôi muốn biết deliverable và file đích, để không bỏ sót đầu việc | Thành viên nhóm | Tìm yêu cầu giữa worksheet, checkpoints và templates | Lần gần nhất bạn phải tìm yêu cầu này là khi nào? |
-| 2 | Chưa ghi nhận | Khi nhóm chọn một vấn đề, tôi muốn so sánh các candidate theo cùng tiêu chí, để quyết định có lý do | Nhóm Monday | Gom pitch và đối chiếu tiêu chí | Nhóm hiện có bao nhiêu candidate và ghi ở đâu? |
-| 3 | Chưa ghi nhận | Khi chuẩn bị báo cáo, tôi muốn biết phần nào cần dữ liệu thật, để không trình bày giả định như kết quả | Người tổng hợp báo cáo | Phân biệt ví dụ, giả thuyết và bằng chứng | Có mục nào nhóm chưa có dữ liệu để điền không? |
-| 4 | Chưa ghi nhận | Khi nhiều người cùng làm, tôi muốn biết ai phụ trách phần nào, để tránh trùng hoặc bỏ trống việc | Nhóm Monday | Chưa có phân công điền trong TEAM.md | Có việc nào bị chờ vì chưa rõ người phụ trách? |
-| 5 | Chưa ghi nhận | Khi viết reflection, tôi muốn dựa vào ghi chép hoạt động của mình, để phản ánh đúng trải nghiệm | Từng thành viên | Chưa có nhật ký cá nhân | Bạn đã ghi lại phản biện/đổi ý ở đâu? |
+| 1 | Lương Đức Anh — CP1/2 | Khi muốn biết tháng này tiền đi đâu, tôi muốn gom tiền ngân hàng/app trả trước và tiền mặt, để thấy chi tiêu gần với thực tế | Cá nhân dùng nhiều nguồn tiền | Dựng lại khoản cash và điểm trả trước; nguy cơ tính cả lúc nạp lẫn lúc dùng | App/điểm nào đang dùng? Nạp và tiêu được ghi thế nào? |
+| 2 | Huyền Tâm — CP1/2 | Khi rà soát chi tiêu, tôi muốn xem giao dịch ngân hàng/ví ở một chỗ, để biết tiền đã đi đâu và còn bao nhiêu | Cá nhân dùng nhiều app | Mở nhiều app, dò và phân loại giao dịch | Có thực sự cần nhiều nguồn hay một app đã đủ? |
+| 3 | Lương Đức Anh — CP1 | Khi lịch học/lịch cá nhân kín, tôi muốn biết việc nào có thể dời/bỏ, để không làm vỡ lịch | Cá nhân có lịch học và lịch riêng | Ước lượng tác động dây chuyền khi đổi lịch | Có lần gần nhất và thời gian xử lý không? |
+| 4 | Lương Đức Anh — CP2 | Khi gặp truyện/tin chưa đọc ngay, tôi muốn lưu thành hàng đợi riêng, để tìm lại và theo dõi tiến độ | Người đọc nhiều nội dung trên web | Tìm giữa nhiều tab, không nhớ đang đọc đến đâu | Bao nhiêu tab/nội dung thực sự bị quên? |
+| 5 | Lương Đức Anh — CP2 | Khi có việc/ý tưởng bất chợt, tôi muốn lưu thật nhanh, để không quên khi chuyển hoạt động | Cá nhân | Không có bước ghi ổn định lúc ý nghĩ xuất hiện | Tuần gần nhất có bao nhiêu lần quên? |
+| 6 | Huyền Tâm — CP1/2 | Khi nhóm chuẩn bị chuyến đi, tôi muốn tổng hợp ngày rảnh, ngân sách và phương án di chuyển, để chốt kế hoạch phù hợp | Người điều phối và bạn đi cùng | Gom phản hồi và so sánh phương án | Số người, vòng chat, thời gian chốt? |
+| 7 | Huyền Tâm — CP1 | Khi tìm phương án đi lại, tôi muốn so sánh tổng chi phí và thời gian, để chọn phương án trong ngân sách | Người điều phối/nhóm đi cùng | Tra cứu nhiều lựa chọn | Lần gần nhất mất bao lâu, có mấy lựa chọn? |
+| 8 | Huyền Tâm — CP1/2 | Khi lời nhắc định kỳ xuất hiện, tôi muốn nhớ lý do và bước tiếp theo, để biết cần làm gì | Cá nhân | Tìm lại chat/ghi chú để khôi phục ngữ cảnh | Trong hai tuần phải tra lại bao nhiêu lần? |
+| 9 | Huyền Tâm — CP1 | Khi nhắc bạn về việc chung, tôi muốn kèm bối cảnh và hạn chót, để họ không phải hỏi lại | Người nhắc và bạn bè | Người nhận thiếu thông tin ban đầu | Có ví dụ tin nhắn hỏi lại nào? |
+| 10 | Lương Đức Anh — CP1 | Khi muốn xem lại chi tiêu, tôi muốn đổi điểm trả trước và giao dịch thành khoản tiền dễ hiểu, để so với tiền mặt | Cá nhân | Quy đổi điểm và tách nạp khỏi tiêu | Có tỷ lệ quy đổi/lịch sử điểm chính xác không? |
+| 11 | Lương Đức Anh — CP1 | Khi có ý tưởng giữa lúc làm việc khác, tôi muốn lưu nó trong vài giây, để tìm lại sau | Cá nhân | Chuyển ngữ cảnh trước khi ghi | Ý tưởng nào đã mất, ảnh hưởng ra sao? |
+| 12 | Huyền Tâm — CP1 | Khi lên lịch nhóm, tôi muốn thấy giờ, điểm đón và phương án dự phòng cùng chỗ, để không tìm lại trong nhiều đoạn chat | Cả nhóm | Thông tin phân tán nhiều nguồn | Lần gần nhất phải hỏi lại là khi nào? |
 
 ### 2.2. Cluster
 
 | Cluster | Candidate | Pattern chung |
 |---|---|---|
-| A — Tìm yêu cầu và file đích | #1, #3 | Thông tin bài nằm ở nhiều tài liệu, cần tìm đúng hướng dẫn và trạng thái |
-| B — Phối hợp | #2, #4 | Cần thống nhất tiêu chí, người làm và quyết định |
-| C — Ghi nhận trải nghiệm | #5 | Cần ghi sự kiện khi nó vừa xảy ra để báo cáo cá nhân chính xác |
+| A — Tổng hợp tiền cá nhân | #1, #2, #10 | Giao dịch nằm ở nhiều dạng/nguồn; dễ thiếu khoản, khó quy đổi hoặc tính trùng |
+| B — Lập kế hoạch và điều phối | #3, #6, #7, #9, #12 | Cần so sánh lịch/chi phí hoặc truyền bối cảnh để phối hợp |
+| C — Lưu và tìm lại thông tin | #4, #5, #8, #11 | Ý nghĩ, nội dung đọc hoặc lời nhắc tách khỏi ngữ cảnh |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 ```text
-OUTCOME: Thành viên hoàn tất deliverable đúng yêu cầu với ít thời gian tìm kiếm và làm lại hơn
-├── Opportunity A: Thành viên chưa chắc yêu cầu nào áp dụng cho checkpoint hiện tại
-├── Opportunity B: Nhóm chưa có một chỗ ghi quyết định, người phụ trách và trạng thái
-└── Opportunity C: Thành viên có thể quên chi tiết phản biện và thay đổi ý kiến đã xảy ra
+OUTCOME: Tăng độ đầy đủ của tổng kết chi tiêu tháng mà không tăng lỗi tính tiền
+├── Opportunity A: Một phần chi tiêu không xuất hiện trong lịch sử ngân hàng
+├── Opportunity B: Tiền mặt và điểm trả trước khó đối chiếu với khoản đã dùng
+└── Opportunity C: Nạp điểm và sử dụng điểm có thể bị tính trùng khi tổng kết
 ```
 
-Ý loại khỏi tầng opportunity vì là giải pháp: “chatbot hỏi đáp”, “dashboard tiến độ”, “tự động điền báo cáo”. Chưa có bằng chứng những giải pháp này cần thiết.
+Đã loại khỏi tầng opportunity vì là solution: “kết nối mọi app”, “AI tự quản lý tài chính”, “tự động quy đổi mọi điểm”.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
-Điểm dưới đây là đánh giá sơ bộ từ cấu trúc repo, không phải đồng thuận hay bằng chứng nhóm.
+Điểm sơ bộ từ hai báo cáo; chưa phải chấm điểm nhóm. “Pain có bằng chứng” phản ánh độ cụ thể của scan, không thay cho log/phỏng vấn độc lập.
 
-| Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được 4 mức | Nhóm hiểu domain | Tổng |
+| Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh 4 mức | Hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Tìm yêu cầu/file đích | 4 | 3 | 1 | 2 | 5 | 4 | 4 | 23 |
-| Ghi quyết định/phân công | 4 | 3 | 1 | 2 | 5 | 4 | 3 | 22 |
-| Ghi nhật ký để reflection | 3 | 3 | 1 | 2 | 5 | 3 | 4 | 21 |
+| Tiền cá nhân qua app, cash, điểm trả trước | 5 | 4 | 3 | 4 | 4 | 5 | 4 | **29** |
+| Kế hoạch đi lại nhóm | 4 | 3 | 1 | 3 | 4 | 4 | 3 | 22 |
+| Ghi nhanh việc/ý tưởng | 4 | 3 | 1 | 2 | 5 | 4 | 3 | 22 |
 
-**Candidate tạm chọn:** Tìm yêu cầu và file đích cho checkpoint.
+**Candidate đề xuất:** Tổng hợp chi tiêu nhiều nguồn, tập trung vào cash và điểm trả trước.
 
-**Lý do:** Phạm vi nhỏ, actor xác định được và có thể đo thời gian tìm yêu cầu trên một nhiệm vụ cụ thể. Tài liệu hiện tại có worksheet, checkpoints, template nhóm và template cá nhân, nhưng sự tồn tại của nhiều file không tự chứng minh người học gặp khó.
+**Lý do:** Hai scan đều nhắc tổng quan chi tiêu nhiều nguồn. Báo cáo Lương Đức Anh cụ thể hơn: ít nhất 4 app, tiền mặt, điểm trả trước cho di chuyển và hóa đơn điện thoại; bottleneck là dựng lại cash/điểm và phân biệt nạp với tiêu. Các bước/metric có thể kiểm tra bằng pilot nhỏ. Đây là hội tụ của hai scan, chưa phải phỏng vấn hay đồng thuận nhóm.
 
-**Lý do chưa loại các candidate khác:** Chưa có pitch thật để so sánh; cần để nhóm xác nhận trước khi chốt.
+**Các candidate còn lại:** Chưa loại bỏ; đi lại nhóm và lưu thông tin cần được pitch và so bằng bằng chứng thực tế.
 
-**Bất đồng:** Chưa có biên bản; không ghi nhận bất đồng chưa được xác nhận.
+**Bất đồng:** Chưa có biên bản để xác định bất đồng/đồng thuận.
 
 ---
 
@@ -69,82 +76,87 @@ OUTCOME: Thành viên hoàn tất deliverable đúng yêu cầu với ít thời
 
 ### 3.1. Assumption Map
 
-| # | Giả định | Loại | Quan trọng | Bằng chứng hiện có | Kiểm chứng trước? |
+| # | Giả định | Loại | Quan trọng | Bằng chứng hiện có | Kiểm trước? |
 |---:|---|---|---:|---:|---|
-| 1 | Thành viên mất thời gian tìm yêu cầu/file đích trong lúc làm checkpoint | Value | 5 | 1 | Có |
-| 2 | Việc tìm kiếm xảy ra lặp lại, không chỉ một lần lúc mới đọc repo | Value | 4 | 1 | Có |
-| 3 | Một trang chỉ mục/checklist đủ giảm thời gian tìm | Usability | 4 | 1 | Có |
-| 4 | Các yêu cầu trong tài liệu đủ nhất quán để lập chỉ mục bằng quy tắc | Feasibility | 3 | 2 | Sau khi xác nhận pain |
-| 5 | Thành viên sẽ dùng trang chỉ mục trong các checkpoint tiếp theo | Viability | 3 | 1 | Có |
+| 1 | Người dùng phải mở nhiều app và nguồn tiền để rà soát định kỳ | Value | 5 | 2 | Có |
+| 2 | Dựng lại cash/điểm trả trước gây thiếu hoặc sai tổng | Value | 5 | 2 | Có |
+| 3 | Người dùng ghi cash ngay sau khi mua đủ đều để dữ liệu hữu ích | Usability | 4 | 1 | Có |
+| 4 | Các app liên quan xuất được lịch sử hoặc có số dư đối chiếu | Feasibility | 4 | 1 | Có |
+| 5 | Tách nạp điểm và điểm đã dùng ngăn được tính trùng | Feasibility | 4 | 2 | Có |
+| 6 | Người dùng chấp nhận giữ dữ liệu trong bảng do mình kiểm soát | Viability | 4 | 1 | Có |
 
-Điểm bằng chứng thấp phản ánh repo không có quan sát người dùng; tài liệu chỉ chứng minh nội dung đang nằm ở các file, không chứng minh mức độ khó tìm.
-
-**Giả định ưu tiên:** #1 và #2. Phỏng vấn 2–3 thành viên/nhóm khác đã làm qua checkpoint, hỏi về lần gần nhất, thời gian tìm, đường dẫn họ đã mở và cách xử lý. Không hỏi họ có thích chatbot hay không.
+Điểm bằng chứng thấp vì chưa có diary, bấm giờ, phỏng vấn hay dữ liệu đã ẩn danh trong repo.
 
 ### 3.2. Kiểm chứng
 
-**Trạng thái:** Chưa thực hiện. Không có interview snapshot, survey, log hoặc ghi chép quan sát nào trong repo.
+**Đã có:** Hai báo cáo scan cùng đề cập tổng hợp tiền nhiều nguồn. Một nêu ít nhất 4 app, cash, điểm trả trước và hóa đơn; đây là tự báo cáo, chưa có đối chiếu độc lập.
 
-| Nguồn | Số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
+**Chưa có:** Interview, survey, log thời gian, số giao dịch thiếu/sai, xác nhận app nào xuất được dữ liệu. Không có interview snapshot để trích dẫn.
+
+| Nguồn | Số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác/giới hạn |
 |---|---:|---|---|
-| Tài liệu trong repo | 5+ tệp liên quan | Hướng dẫn, checklist và các template nằm ở các file khác nhau | Cấu trúc có tên file và liên kết chéo; người đọc có thể tìm được dễ dàng |
-| Phỏng vấn/survey | 0 | Chưa có | Chưa có |
+| Hai báo cáo cá nhân | 2 | Cùng nhắc khó thấy tổng tiền từ nhiều nguồn | Chưa có baseline hoặc kiểm chứng độc lập; một báo cáo ghi rõ chưa bấm giờ |
+| Phỏng vấn/survey/diary | 0 | Chưa có | Chưa có |
 
-**Câu hỏi kiểm chứng đề xuất:** “Kể lần gần nhất bạn cần biết checkpoint yêu cầu gì. Bạn mở những file nào, mất bao lâu, và cuối cùng làm gì?” Ghi lại vai trò, diễn biến, thời gian ước lượng của người tham gia, workaround và cả trường hợp họ tìm được ngay. Không ghi tên thật.
+**Kế hoạch:** Phỏng vấn 2–3 người từng tổng kết tiền nhiều nguồn; hỏi lần gần nhất, từng nguồn, quy trình, thời gian, khoản bị bỏ sót/tính trùng và workaround. Một người tự nguyện ghi diary 2 tuần: phút mỗi phiên, nguồn, khoản cash, điểm nạp/tiêu và sai lệch khi đối chiếu. Không hỏi họ có muốn app AI.
 
-**Thay đổi problem sau kiểm chứng:** Chưa có kết quả để kết luận. Candidate hiện vẫn là giả thuyết.
+**Problem cần xác minh:** Thu hẹp vào dựng lại cash/điểm trả trước và tránh tính cả top-up lẫn usage. Nếu pain không lặp lại hoặc khó đo, xem lại candidate.
 
 ### 3.3. Research giải pháp đã có
 
-Research desk-based đã kiểm tra tài liệu chính thức GitHub về README, relative links và Projects. Đây là các pattern liên quan tới điều hướng/phối hợp công việc, không phải bằng chứng người học của nhóm đang gặp pain. Giải pháp nền tảng hiện có trong project là README/checkpoints, liên kết chéo tới worksheet và các template báo cáo.
-
-| Giải pháp/pattern hiện có | Nguồn | Giải phần nào | Điểm mạnh | Khoảng trống/rủi ro | Bài học |
+| Công cụ/pattern | Link | Giải bước nào? | Điểm mạnh | Khoảng trống/rủi ro | Bài học |
 |---|---|---|---|---|---|
-| README + mục lục và relative links | [GitHub Docs: About README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes), [Markdown links](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) | Định hướng điểm bắt đầu, dẫn tới file/heading liên quan | README là điểm vào; GitHub hỗ trợ mục lục và link tương đối | Không tự chứng minh người đọc tìm được nội dung; mục lục cần tổ chức tốt | Cải thiện README/link trước khi thêm AI |
-| GitHub Projects board | [GitHub Docs: Projects quickstart](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects) | Theo dõi đầu việc và trạng thái | Có view theo status, có thể nhìn việc đang làm | Cần thiết lập, cập nhật; có thể quá mức cho nhóm nhỏ | Bảng TEAM.md đơn giản có thể đủ; chỉ dùng board nếu phối hợp là pain đã xác nhận |
-| Checklist/template hiện có trong repo | [CHECKPOINTS.md](../../CHECKPOINTS.md), [group_report.md](group_report.md), [báo cáo cá nhân](../individual/2A202603917_Bùi%20Thị%20Huyền%20Tâm.md) | Liệt kê đầu ra và cấu trúc cần điền | Không cần mua hay xây công cụ mới | Người học vẫn phải nối yêu cầu với file; chưa đo mức độ khó | Thử chỉ mục có link và đo tác vụ trước |
+| Google Sheets nhập CSV | [Google Sheets Help](https://support.google.com/docs/answer/12236443?hl=en) | Import file giao dịch vào bảng | Người dùng kiểm soát dữ liệu/công thức; có thể lọc và cộng | Chỉ dùng được nếu app xuất file; cash/điểm vẫn phải ghi; schema có thể khác | Thử CSV và bảng chuẩn hóa trước tích hợp |
+| Splitwise cho chi phí nhóm | [Splitwise Help](https://kb.splitwise.com/getting-started/how-do-i-use-splitwise) | Ghi khoản nhóm/trip, ai trả và chia số dư | Có sẵn cho chi phí chung | Không thay ledger cá nhân; import thẻ chỉ ở phạm vi hỗ trợ theo [Splitwise Pro](https://www.splitwise.com/pro) | Dùng nếu pain chính là chia tiền chuyến đi, không phải tổng kết mọi chi tiêu cá nhân |
+| Bảng tính + quy tắc cash/điểm | Pattern thủ công cần thử | Ghi cash; top-up tăng số dư điểm; usage mới là chi tiêu | Minh bạch, dễ sửa, không cần gửi dữ liệu AI | Cần ghi đều; quy tắc phải được người dùng duy trì | Làm baseline No AI/Rule |
+
+**Kết luận research:** CSV/bảng tính hỗ trợ nguồn có thể xuất; Splitwise giải chi phí nhóm. Chưa có bằng chứng các công cụ này tự ghép cash + điểm trả trước + giao dịch app mà tránh tính trùng. Pilot tách hai khái niệm: top-up là dòng tiền nạp vào số dư; usage là khoản tiêu dùng. Khi tính **tiêu dùng theo danh mục**, chỉ cộng usage; khi xem **dòng tiền**, chỉ cộng khoản nạp, không cộng cả hai vào cùng một tổng. Không tự xây agent.
 
 ---
 
 ## 4. Quy trình trước/sau (CP5)
 
-### 4.1. Quy trình hiện tại (giả thuyết, cần bấm giờ)
+### 4.1. Quy trình hiện tại (cần quan sát/bấm giờ)
 
 ```text
-Đọc checkpoint → mở worksheet → tìm template/file đích → dò thông tin cần điền
-→ làm nhiệm vụ → tự kiểm tra lại với rubric
+Trả qua cash/ngân hàng/app → lịch sử ở nhiều nơi hoặc không có
+→ nạp điểm trả trước → sử dụng điểm sau đó
+→ cuối kỳ mở lại nguồn, nhớ cash, cộng/phân loại
+→ tổng có thể thiếu hoặc tính trùng nạp điểm với lúc sử dụng
 ```
 
 | Bước | Actor | Input | Output | Thời gian/tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | Thành viên | Tên checkpoint | Mục tiêu và đầu việc | Chưa đo / checkpoint | Xem CHECKPOINTS.md |
-| 2 | Thành viên | Yêu cầu | Cách thực hiện chi tiết | Chưa đo | Mở worksheet và tài liệu tham chiếu |
-| 3 | Thành viên | Yêu cầu đã hiểu | File đích | Chưa đo | Tìm template cá nhân/nhóm |
-| 4 | Thành viên | Nội dung đã làm | Deliverable | Phụ thuộc nhiệm vụ | Điền báo cáo |
-| 5 | Thành viên/nhóm | Deliverable | Bản tự kiểm | Chưa đo | So với rubric và submission checklist |
+| 1 | Người dùng | Khoản mua/di chuyển | Giao dịch app/ngân hàng hoặc cash | Hàng ngày; chưa đo | Ghi nguồn thanh toán |
+| 2 | Người dùng | Điểm trả trước | Số điểm nạp và đã dùng | Khi nạp/dùng; chưa đo | Tách nạp khỏi chi tiêu cuối cùng |
+| 3 | Người dùng | Hóa đơn/nguồn khác | Khoản định kỳ | Theo kỳ; chưa đo | Kiểm tra trùng với top-up nếu có |
+| 4 | Người dùng | Lịch sử rải rác | Bảng tổng hợp | Cuối kỳ; chưa đo | Mở từng app và nhập lại |
+| 5 | Người dùng | Bảng tổng hợp | Tổng chi theo nhóm | Chưa đo | Kiểm cash thiếu, quy đổi và trùng |
 
-**Bottleneck giả thuyết:** Bước 2–3, định vị nội dung và file đích. Chưa có số phút quan sát được.
+**Bottleneck:** Dựng lại cash và điểm đã dùng là giả thuyết từ Problem Card của Lương Đức Anh; duration cần đo.
 
-### 4.2. Quy trình tương lai (thử cải tiến không AI trước)
+### 4.2. Quy trình tương lai đề xuất (pilot No AI/Rule)
 
 ```text
-[1 Mở một trang chỉ mục theo checkpoint: link + deliverable + tiêu chí] ← RULE / nội dung biên tập
-→ [2 Làm bài theo template hiện có] ← CON NGƯỜI
-→ [3 Đối chiếu checklist] ← RULE / CON NGƯỜI
+[1 Nhập giao dịch từ file app nào xuất được]          ← CON NGƯỜI
+→ [2 Ghi cash; top-up vào số dư điểm/dòng tiền]        ← RULE + CON NGƯỜI
+→ [3 Ghi usage là tiêu dùng, không cộng trùng top-up]  ← RULE
+→ [4 Phân loại khoản quen thuộc và tính tổng]          ← RULE
+→ [5 Người dùng đối chiếu số dư, khoản lạ và trùng]    ← CON NGƯỜI (HITL)
 
-Boundary: không tự tạo nội dung cá nhân, không đánh dấu hoàn thành thay người học.
-Fallback: quay lại CHECKPOINTS.md, worksheet và template hiện có.
+BOUNDARY: Không kết nối tài khoản/đưa file cho AI; không tự quy đổi điểm nếu thiếu tỷ lệ.
+FALLBACK: File không import được hoặc số liệu lệch → rà từng nguồn như quy trình cũ.
 ```
 
-### 4.3. Before / after (mục tiêu thử nghiệm, chưa phải kết quả)
+### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (mục tiêu pilot) | Ghi chú |
-|---|---:|---:|---|
-| Số bước | 5 (ước tính) | 3 | Cần xác nhận bằng quan sát |
-| Thời gian tìm yêu cầu/file | Chưa đo | Giảm ít nhất 30% so với baseline | Bấm giờ 3 tác vụ tương đương trước/sau |
-| Bước thủ công | Chưa đo | Vẫn do người học thực hiện | Chỉ gom link/checklist |
-| Bottleneck | Định vị hướng dẫn | Đối chiếu checklist | Giả thuyết |
-| Rủi ro mới | Yêu cầu bị bỏ sót | Chỉ mục lỗi thời hoặc bỏ sót | Gán người cập nhật, dẫn link nguồn |
+|---|---|---|---|
+| Số bước | 5 bước mô tả, chưa quan sát | 5 bước có phân vai/rule rõ | Đếm lại sau diary |
+| Tổng thời gian | Chưa đo | Giảm ≥30% so với baseline sau 2 tuần | Bấm giờ từng phiên |
+| Bước thủ công | Chưa đếm; phần lớn dự kiến thủ công | 2–3 bước nhập/duyệt thủ công | Không tự động hóa cash/ngoại lệ |
+| Bottleneck | Dựng lại cash/điểm, giả thuyết | Nhập cash và đối chiếu ngoại lệ | Pilot xác định bottleneck còn lại |
+| Rủi ro mới | Thiếu khoản/tính trùng | Rule sai, quên ghi cash hoặc lệch số dư | Đối chiếu số dòng/tổng/số dư |
 
 ---
 
@@ -152,14 +164,14 @@ Fallback: quay lại CHECKPOINTS.md, worksheet và template hiện có.
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | Thành viên nhóm Monday đang làm các checkpoint của Day 02 |
-| **Quy trình** | Đọc checkpoint, tra worksheet, tìm file đích, hoàn thành nội dung, tự đối chiếu rubric |
-| **Bottleneck** | Giả thuyết: phải chuyển qua nhiều tài liệu để ghép yêu cầu với file cần điền; chưa đo thời gian |
-| **Impact** | Có nguy cơ tốn thời gian tìm kiếm hoặc bỏ sót mục; chưa có dữ liệu về tần suất/tác động |
-| **Success Metric** | Baseline chưa có. Đo thời gian tìm đúng hướng dẫn và file cho 3 tác vụ; mục tiêu pilot giảm ≥30%, đồng thời không tăng số mục bị bỏ sót |
-| **Boundary** | Không tự viết reflection cá nhân, không bịa bằng chứng, không đánh dấu task hoàn tất; thành viên đối chiếu yêu cầu nguồn trước khi nộp |
+| **Actor** | Cá nhân dùng nhiều app thanh toán, tiền mặt và điểm trả trước cho di chuyển |
+| **Quy trình** | Chi tiêu qua nhiều nguồn → lịch sử rải rác/không có → cuối kỳ mở từng nguồn và dựng lại tổng chi |
+| **Bottleneck** | Ghi nhớ cash và tách dòng tiền top-up khỏi tiêu dùng lúc dùng điểm; chưa đo thời gian |
+| **Impact** | Báo cáo tiêu dùng có thể thiếu khoản hoặc cộng trùng top-up/usage; sai lệch chưa đo |
+| **Success Metric** | Trong 2 tuần ghi ngày theo dõi và khoản thiếu; mục tiêu ban đầu 5/7 ngày mỗi tuần, đối chiếu số dư điểm và không tính trùng |
+| **Boundary** | Không kết nối tài khoản/đưa dữ liệu cho AI; không tự quy đổi điểm khi thiếu tỷ lệ; người dùng xác nhận tổng |
 
-**Phản biện:** “Nhiều tài liệu” chưa chứng minh là bottleneck; có thể các liên kết hiện tại đã đủ. Đồng ý. Cần quan sát người học trước khi chốt vấn đề hoặc đầu tư giải pháp.
+**Phản biện:** 5/7 ngày đo thói quen ghi, chưa đo tiết kiệm thời gian/độ chính xác. Đồng ý bổ sung baseline thời gian và đối chiếu ở v1.
 
 ---
 
@@ -167,38 +179,36 @@ Fallback: quay lại CHECKPOINTS.md, worksheet và template hiện có.
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-**Đánh giá sơ bộ:** độ mơ hồ thấp, độ phức tạp thấp. Tác vụ tra file và checklist có đích đến xác định, dữ liệu đóng trong repo. Cả hai đánh giá này vẫn cần xác nhận qua quan sát.
+Đề xuất: độ mơ hồ thấp–trung bình nếu danh mục cố định; độ phức tạp trung bình do nhiều nguồn, cash không có lịch sử số và quy tắc điểm khác nhau. Chưa rõ app nào xuất được dữ liệu.
 
-### 6.2. So sánh 4 mức
+### 6.2. So sánh bốn mức
 
 | Mức | Phương án | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** | Sắp xếp chỉ mục/checklist có liên kết | Người học cần tìm đúng yêu cầu | Cần cập nhật thủ công | **Ưu tiên thử trước** |
-| **Rule** | Điều hướng theo checkpoint/tên deliverable | Cấu trúc và tên file ổn định | Link cũ hoặc mapping sai | Có thể dùng như chỉ mục |
-| **Workflow** | Người học chọn checkpoint → trả danh sách link và checklist | Có nhiều bước điều hướng lặp lại đã được chứng minh | Có thể thêm độ phức tạp không cần thiết | Chưa chọn |
-| **Agent** | Hỏi đáp tự do trên tài liệu và tự đề xuất nội dung | Nguồn lớn, câu hỏi khó dự đoán, có nhu cầu đã xác nhận | Trả lời sai/không truy nguồn; làm thay phần cá nhân | Không chọn |
+| **No AI** | Bảng ghi cash/app/hóa đơn và checklist cuối kỳ | Ít giao dịch, người dùng ghi đều | Nhập thủ công, dễ quên cash | Baseline |
+| **Rule** | Import CSV, chuẩn hóa cột, mapping merchant, tách top-up/usage | Nguồn xuất được, quy tắc lặp ổn định | File khác format, mapping sai | **Chọn pilot đầu** |
+| **Workflow** | Import → rule → AI gợi ý khoản lạ → người dùng duyệt | Ngoại lệ ngôn ngữ vẫn tốn thời gian sau khi thử rule | Sai phân loại, dữ liệu nhạy cảm | Chưa chọn |
+| **Agent** | Tự kết nối nguồn, phân loại và cập nhật tổng | Không cần cho quy trình có bước cố định | Quyền truy cập rộng, sai lệch khó phát hiện | Không chọn |
 
-**Mức chọn:** No AI cho pilot đầu tiên; Rule chỉ ở dạng chỉ mục tĩnh nếu quan sát xác nhận có vấn đề tìm kiếm.
+**Mức chọn:** Rule/no-AI. Chưa chọn AI.
 
-**Vì sao không chọn mức phức tạp hơn:** Chưa có bằng chứng pain hay lợi ích AI; cách sắp xếp link/checklist rẻ, minh bạch và dễ sửa. Không có cơ sở biện minh cho Workflow hoặc Agent.
+**Vì sao không chọn mức phức tạp hơn:** Nút khó có vẻ là cash không có log và cách tính điểm, không phải hiểu ngôn ngữ. Quy tắc minh bạch giải trực tiếp vấn đề với ít rủi ro dữ liệu hơn.
 
-### 6.3. AI Canvas rút gọn
+### 6.3. AI Canvas (chỉ là phương án dự phòng, không thuộc pilot)
 
-Vì chưa chọn AI, canvas này ghi điều kiện nếu sau pilot cân nhắc công cụ hỗ trợ.
-
-| Thành phần | Nội dung giả thuyết |
+| Thành phần | Nội dung nếu sau này thử AI |
 |---|---|
-| **Prediction** | Trả về file/hướng dẫn phù hợp với checkpoint được hỏi |
-| **Judgment** | Người học xác nhận đúng checkpoint và kiểm tra câu trả lời với nguồn gốc |
-| **Action** | Người học mở tài liệu và tự hoàn thành bài |
-| **Outcome** | Thời gian tìm đúng nguồn và tỷ lệ bỏ sót yêu cầu |
-| **Input** | Tài liệu markdown trong repo, trạng thái phiên bản và câu hỏi |
-| **Feedback** | Câu trả lời sai/thiếu được ghi nhận và sửa trong chỉ mục; chỉ cân nhắc AI sau khi có lỗi lặp lại |
+| **Prediction** | Gợi ý danh mục cho mô tả giao dịch lạ; không dự đoán số dư/quy đổi điểm |
+| **Judgment** | Người dùng xác nhận khoản chi và cách xử lý top-up/usage |
+| **Action** | Người dùng lưu hoặc sửa bảng tổng |
+| **Outcome** | Thời gian, độ đầy đủ, phân loại sai và số lần tính trùng |
+| **Input** | Mô tả đã ẩn thông tin nhạy cảm, merchant, danh mục; chỉ sau khi đánh giá quyền riêng tư |
+| **Feedback** | Người dùng sửa nhãn; không mặc định dùng dữ liệu cá nhân để huấn luyện |
 
-### 6.4. Hai câu hỏi của Google PAIR
+### 6.4. Google PAIR
 
-- **Augment hay automate?** Nếu có nhu cầu, chỉ hỗ trợ điều hướng; người học vẫn đọc, suy nghĩ và viết nội dung cá nhân. Chưa có phỏng vấn để coi đây là nhu cầu đã xác nhận.
-- **Báo nhầm hay bỏ sót?** Bỏ sót yêu cầu có thể khiến deliverable thiếu; trả lời sai có thể dẫn tới thao tác sai. Biện pháp tối thiểu là hiển thị link nguồn cạnh từng hướng dẫn và yêu cầu người học tự kiểm checklist. Pilot hiện tại không dùng AI.
+- **Augment hay automate?** Nếu sau này thử AI, chỉ gợi ý danh mục; người dùng xác nhận và sửa. Chưa có phỏng vấn để xác nhận nhu cầu.
+- **Báo nhầm hay bỏ sót?** Cả hai làm tổng sai. Bỏ cash làm thiếu; tính top-up lẫn usage làm trùng. Pilot tách số dư điểm khỏi chi tiêu và đối chiếu từng nguồn.
 
 ---
 
@@ -206,32 +216,33 @@ Vì chưa chọn AI, canvas này ghi điều kiện nếu sau pilot cân nhắc 
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | Thành viên nhóm Monday; cần xác nhận có pain lặp lại |
-| **Quy trình** | Xác định checkpoint → mở hướng dẫn và file liên quan → làm bài → tự kiểm theo rubric |
-| **Bottleneck** | Chưa xác nhận; cần đo thời gian định vị nguồn |
-| **Impact** | Chưa lượng hóa; giả thuyết là thời gian tìm kiếm và nguy cơ bỏ sót |
-| **Success Metric** | Trong thử nghiệm 3 tác vụ, thời gian tìm giảm ≥30% so với baseline và không phát sinh mục yêu cầu bị bỏ sót; ghi số liệu từng tác vụ |
-| **Boundary** | Chỉ mục không thay thế tài liệu nguồn, không viết thay nội dung cá nhân và không khẳng định trạng thái hoàn thành |
-| **AI intervention point** | Không có ở pilot đầu; cân nhắc hỗ trợ tìm nguồn chỉ khi có nhu cầu và dữ liệu lỗi lặp lại |
-| **Mức chọn** | No AI (pilot), Rule tĩnh nếu cần điều hướng |
-| **Rủi ro & người kiểm tra** | Link sai/lỗi thời: người duy trì repo kiểm tra; người học đối chiếu tài liệu gốc |
+| **Actor** | Cá nhân dùng nhiều app, cash và điểm trả trước; trường hợp scan cụ thể nêu ít nhất 4 app |
+| **Quy trình** | Ghi cash, nhập lịch sử có thể xuất; ghi top-up là dòng tiền vào số dư và usage là tiêu dùng; đối chiếu riêng từng tổng |
+| **Bottleneck** | Dựng lại cash/điểm đã dùng và tách hai cách nhìn tổng tiền; duration chưa đo |
+| **Impact** | Tổng tiêu dùng tháng có thể thiếu hoặc cộng trùng top-up/usage; chưa lượng hóa |
+| **Success Metric** | Diary 2 tuần; theo dõi ≥5/7 ngày mỗi tuần, giảm ≥30% thời gian so với baseline, không tăng khoản thiếu/sai |
+| **Boundary** | Dữ liệu giữ cục bộ; không kết nối tài khoản/đưa cho AI; không tự quy đổi điểm; người dùng duyệt tổng |
+| **AI intervention point** | Không có trong pilot; nếu cân nhắc sau này, chỉ gợi ý danh mục khoản không khớp |
+| **Mức chọn** | Rule/no-AI |
+| **Rủi ro & người kiểm tra** | Người dùng đối chiếu số dư điểm, giao dịch và tổng bảng; người phụ trách pilot ghi sai lệch |
 
-**Thay đổi so với v0:** Thu hẹp giải pháp thử nghiệm về chỉ mục/checklist, tạm bỏ giả định cần AI; problem vẫn chưa được xác thực.
+**Thay đổi so với v0:** Thu hẹp vào cash chưa có lịch sử và điểm trả trước có thể bị tính trùng; thêm thời gian/độ chính xác vào metric; bỏ AI khỏi pilot.
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| Mức can thiệp | Chưa xác định | No AI trước, Rule tĩnh nếu cần | Chưa có evidence rằng AI cần thiết |
-| Metric | Đo tìm nguồn và mục bỏ sót | Cùng metric, đặt ngưỡng pilot 30% | Cần ngưỡng đo được; 30% là mục tiêu thử, không phải kết quả |
-| Bằng chứng pain | Chưa có | Vẫn chưa có | Cần giữ nguyên trạng thái trung thực, không coi giả thuyết là xác nhận |
+| Phạm vi | Tổng hợp app, cash, điểm, hóa đơn | Cash + điểm trả trước; nhập giao dịch xuất được | Nút cụ thể nhất trong scan của Lương Đức Anh |
+| Metric | Ghi 5/7 ngày, tránh tính trùng | Thêm baseline thời gian và không tăng lỗi | Tần suất ghi chép chưa đo hiệu quả/độ chính xác |
+| Can thiệp | Có thể AI phân loại | Rule/no-AI | CSV/rule đơn giản hơn; chưa có bằng chứng AI cần thiết |
 
-**Tiêu chí đánh giá nếu sau này có câu trả lời tự động:**
+**Tiêu chí đánh giá:**
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | Truy nguồn | Mỗi chỉ dẫn có đường dẫn tới file nguồn đúng | Không có nguồn hoặc dẫn sai |
-| 2 | Bao phủ yêu cầu | Không bỏ sót mục bắt buộc trong tác vụ đã chọn | Thiếu mục trong checklist nguồn |
-| 3 | Đúng phạm vi | Không tự viết reflection/bằng chứng cá nhân | Tạo nội dung giả định như trải nghiệm thật |
-| 4 | Tính cập nhật | Link và tên file còn hiệu lực ở phiên bản repo hiện tại | Hướng dẫn lỗi thời hoặc file không tồn tại |
+| 1 | Độ bao phủ | Ghi ≥5/7 ngày và đối chiếu các nguồn đã chọn | Cash/app bị bỏ khỏi tổng |
+| 2 | Nhất quán cách tính điểm | Báo cáo tiêu dùng chỉ cộng usage; báo cáo dòng tiền chỉ cộng top-up; không cộng cả hai vào cùng tổng | Cộng top-up và usage thành hai khoản chi trong cùng một tổng |
+| 3 | Đối chiếu | Tổng khớp giao dịch nguồn/số dư điểm trong phạm vi đã định | Có sai lệch không giải thích được |
+| 4 | Thời gian | Giảm ≥30% sau 2 tuần so với baseline | Giảm <20% hoặc thao tác tăng |
+| 5 | Quyền kiểm soát | Người dùng sửa được ngoại lệ; dữ liệu không rời nơi kiểm soát | Tự xác nhận khoản lạ hoặc gửi dữ liệu ra ngoài không được phép |
 
 ---
 
@@ -241,36 +252,38 @@ Vì chưa chọn AI, canvas này ghi điều kiện nếu sau pilot cân nhắc 
 
 | Rủi ro | Mức độ | Lý do/bằng chứng |
 |---|---|---|
-| **Value** | Cao | Chưa có phỏng vấn/log chứng minh vấn đề xảy ra; chỉ suy ra từ cấu trúc tài liệu |
-| **Usability** | Trung bình | Chỉ mục có thể dễ dùng, nhưng chưa thử với thành viên khác |
-| **Feasibility** | Thấp | Sắp xếp Markdown/link trong repo khả thi; chưa có triển khai cần kiểm tra |
-| **Viability** | Thấp | Không phát sinh công cụ trả phí nếu pilot bằng chỉ mục/checklist; cần người duy trì link |
+| **Value** | Trung bình–cao | Hai scan cùng nhắc tiền nhiều nguồn; chưa có interview/diary/impact đo |
+| **Usability** | Trung bình | Bảng tính dễ tiếp cận nhưng cần ghi cash đều và hiểu quy tắc điểm; chưa thử |
+| **Feasibility** | Trung bình | Sheets hỗ trợ nhập CSV; chưa kiểm tra từng app và cash vẫn nhập tay |
+| **Viability** | Cao với AI ngoài; thấp–trung bình với bảng cục bộ | Dữ liệu tài chính nhạy cảm; chưa đánh giá dịch vụ ngoài; bảng cục bộ không cần chi phí mới |
 
 ### 8.2. Kết luận
 
-**Quyết định:** **Not Yet** cho việc xây hoặc dùng AI; cho phép làm kiểm chứng/pilot chỉ mục thủ công.
+**Quyết định:** **Not Yet** cho sản phẩm/AI; tiếp tục diary và pilot bảng cục bộ để kiểm tra problem.
 
-**Lý do:** Thiếu bằng chứng về pain, baseline và tần suất. Phương án đơn giản nhất là kiểm thử khả năng tìm kiếm hiện tại và thử chỉ mục gắn link.
+**Lý do:** Hai scan hội tụ trên tiền nhiều nguồn; một scan mô tả rõ cash và điểm trả trước. Nhưng chưa xác nhận thời gian, tần suất, khoản sai hay khả năng xuất file. CSV/bảng tính là baseline phù hợp.
 
-**Pilot nhỏ nhất:** Nhờ 3 thành viên làm 3 tác vụ tra cứu checkpoint tương đương; ghi thời gian tìm đúng file, số lần mở nhầm và số yêu cầu bỏ sót. Thử lại với một trang chỉ mục có link, so sánh kết quả. Đây là kế hoạch, chưa được thực hiện.
+**Pilot nhỏ nhất:** Một người tình nguyện ghi 2 tuần, tối thiểu 4 phiên; chỉ lưu file cục bộ, không chia sẻ dữ liệu giao dịch. Ghi phút, nguồn, cash, điểm nạp/điểm dùng, khoản thiếu/trùng và kết quả đối chiếu. Không xây phần mềm.
 
-**Cần kiểm chứng trước:** Có ít nhất 2/3 người gặp khó trong tác vụ thực tế và baseline đủ lớn để cải thiện có ý nghĩa. Nếu đa số tìm được ngay, đóng problem này và không thêm giải pháp.
+**Cần kiểm chứng trước khi Go:** 2/3 người được hỏi thực sự tổng kết từ nhiều nguồn định kỳ; kể được lần gần nhất; dữ liệu có thể đối chiếu; pilot giảm thời gian mà không tăng lỗi.
 
-**Ngưỡng dừng:** Nếu chỉ mục không giảm trung vị thời gian tìm ít nhất 30% hoặc làm tăng mục bỏ sót trong 3 tác vụ, quay lại CHECKPOINTS.md và sửa cấu trúc tài liệu; không nâng lên AI/Agent.
+**Ngưỡng dừng:** Sau 4 phiên, nếu thời gian giảm dưới 20%, không thể đối chiếu cash/điểm, hoặc có khoản thiếu/trùng không được phát hiện, dừng tự động hóa và quay lại rà từng nguồn. Chỉ xem Workflow AI sau khi rule được thử và có chấp thuận về dữ liệu.
 
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
 
-- Chưa có CP1/CP2 cá nhân, pitch nhóm, phản biện thật, interview, survey hay baseline thời gian trong repo.
-- Điểm chấm, quy trình và ngưỡng pilot là giả thuyết/thiết kế kiểm chứng, không phải kết quả nhóm đã quan sát.
-- Cần các thành viên xác nhận candidate, bổ sung thành viên/vai trò trong `TEAM.md`, thực hiện kiểm chứng và cập nhật kết luận.
-- Báo cáo cá nhân để nguyên template vì phần reflection phải là trải nghiệm thật của người viết; không thể suy ra từ tài liệu chung.
+- Candidate/điểm số là tổng hợp từ hai hồ sơ, chưa phải quyết định nhóm đã họp và thống nhất.
+- Chưa có phỏng vấn, survey, diary, baseline hay tín hiệu phản bác trực tiếp.
+- Nhóm cần pitch/ghi câu hỏi phản biện, xác nhận phân công trong `TEAM.md`, phỏng vấn 2–3 người và chạy diary trước khi chốt.
+- Nếu pitch thật chọn kế hoạch đi lại hoặc vấn đề khác, phải cập nhật OST, process, research và Problem Statement theo lựa chọn đó.
 
 ## 10. Tài liệu tham khảo
 
-- [CHECKPOINTS.md](../../CHECKPOINTS.md) — yêu cầu và đầu ra từng checkpoint.
-- [README.md](../../README.md) — hướng dẫn bắt đầu trong repo.
-- [docs/01-worksheet.md](../../docs/01-worksheet.md) — hướng dẫn chi tiết và phương pháp.
-- [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md) — framework tham khảo.
-- [TEAM.md](../../TEAM.md) — thành viên đã đăng ký và phân công hiện có.
+- [Google Sheets Help — nhập dữ liệu](https://support.google.com/docs/answer/12236443?hl=en)
+- [Splitwise Help — cách sử dụng](https://kb.splitwise.com/getting-started/how-do-i-use-splitwise)
+- [Splitwise Pro — transaction import và tính năng](https://www.splitwise.com/pro)
+- [Báo cáo cá nhân — Bùi Thị Huyền Tâm](../individual/2A202603917_Bùi%20Thị%20Huyền%20Tâm.md)
+- [Báo cáo cá nhân — Lương Đức Anh](../individual/2A202603931_Luong%20Duc%20Anh.md)
+- [docs/01-worksheet.md](../../docs/01-worksheet.md)
+- [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md)
