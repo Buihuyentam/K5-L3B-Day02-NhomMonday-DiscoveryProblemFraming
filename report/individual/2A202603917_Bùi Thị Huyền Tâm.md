@@ -7,7 +7,7 @@
 ## 1. Thông tin học viên
 
 - Họ tên: Bùi Thị Huyền Tâm
-- MSSV:2A202603917
+- MSSV: 2A202603917
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: Monday
 - Link repo nhóm:
